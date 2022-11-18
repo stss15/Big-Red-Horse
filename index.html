@@ -58,7 +58,7 @@
       <div class="container p-0">
         <div class="row">
           <div class="col">
-            <div id="carouselExampleCaptions" class="carousel" data-bs-ride="false">
+            <div id="carouselExampleCaptions" class="carousel" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -161,7 +161,7 @@
     <section>
       <div class="container px-0 text-white" id="contact">
             <h1 class="text-center text-white bg-danger mb-4">Get In Touch</h1>  
-            <form class="row g-3 px-1">
+            <form class="row g-3 px-1" action="https://formsubmit.co/steven.stewart@st-georges-academy.org" method="POST">
               <div class="col-md-6">
                 <label for="firstName" class="form-label">First Name </label>
                 <input type="text" class="form-control" id="firstName" required>
@@ -208,6 +208,9 @@
               <div class="col-md-12">
                 <label for="comments" class="form-label">Project Information</label>
                 <textarea class="form-control" id="comments" rows="3" placeholder="Please provide as much detail as possible about your project..." required></textarea>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-danger">Submit</button>
               </div>
             </form>    
       </div>            
